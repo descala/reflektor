@@ -8,7 +8,7 @@ A proxy for remote forwards
 1. Host connects to Reflektor with `ssh -o 'RemoteForward
    localhost:y:localhost:z'`
 2. User gains local access to tcp ports on Host with `ssh -o 'LocalForward
-   localhost:x:localhost:y'`
+   localhost:x:localhost:y' user@reflektor`
 3. or, assuming _z_ is the port where sshd is listening on Host, User connects
    to sshd running on Host with `ssh -o 'ProxyCommand ssh -W localhost:y
    user@reflektor'`
