@@ -69,7 +69,7 @@ This is the `/home/user001/.ssh/authorized_keys` file to apply the above
 restrictions:
 
 ```text
-PermitOpen="localhost:12345",no-port-forwarding,no-X11-forwarding,no-agent-forwarding,no-pty [host key type] [host public key] 
+PermitOpen="localhost:12345",no-port-forwarding,no-X11-forwarding,no-agent-forwarding,no-pty [user key type] [user public key] 
 ```
 With this setup _user001_ connects to sshd running on _host001_ with
 
