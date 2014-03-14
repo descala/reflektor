@@ -17,9 +17,10 @@ A proxy for remote forwards
 What is reflektor?
 ------------------
 
-reflektor is a methodology to configure an OpenSSH server that grants access to
-services published by remote hosts, where only authorized users can access
-remote forwards, and only authorized hosts can create remote forwards.
+reflektor is a methodology to [configure an OpenSSH
+server](docs/server_config.md) that grants access to services published by
+remote hosts, where only authorized users can access remote forwards, and only
+authorized hosts can create remote forwards.
 
 What can I do with reflektor?
 -----------------------------
